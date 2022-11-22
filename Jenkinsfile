@@ -1,7 +1,7 @@
 node {
     def mvnHome //to declare variable 
     stage('scm') { 
-        git 'https://github.com/gitakbar/JenkinsWar.git'
+        git 'https://github.com/gitakbar/java-hello-world-with-maven.git'
         mvnHome = tool 'm386'
     }
     stage('Build') {
